@@ -1,0 +1,37 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.aelux.iafflight.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "iafflight.refmap.json",
+  "mixins": [
+    "AmphithereEntityMixin",
+    "AmphithereAIFlyWanderMixin",
+    "AmphithereAIFlyCircleMixin",
+    "AmphithereFlyMoveHelperMixin",
+    "AmphithereGetPositionRelativetoGroundMixin",
+    "HippogryphEntityMixin",
+    "DragonBaseEntityMixin",
+    "PixieWandItemMixin",
+    "PixieChargeEntityMixin",
+    "HydraHeartItemMixin",
+    "DeathwormGauntletItemMixin",
+    "StymphalianFeatherBundleItemMixin",
+    "DragonColorMixin",
+    "IafArmorMaterialsMixin",
+    "ServerEventsMixin",
+    "DragonScaleArmorItemMixin",
+    "DragonSteelArmorItemMixin",
+    "TrollArmorItemMixin",
+    "SeaSerpentTypeMixin",
+    "SeaSerpentArmorItemMixin",
+    "SeaSerpentEntityMixin",
+    "IafItemsMixin",
+    "DragonCaveStructureMixin",
+    "HippocampusEntityMixin"
+  ],
+  "client": [
+    "AmphithereEntityRendererMixin"
+  ],
+  "server": []
+}
